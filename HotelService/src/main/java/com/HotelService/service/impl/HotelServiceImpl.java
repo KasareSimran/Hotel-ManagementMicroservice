@@ -1,5 +1,6 @@
 package com.HotelService.service.impl;
 
+import com.HotelService.exception.ResourceNotFound;
 import com.HotelService.model.Hotel;
 import com.HotelService.repository.HotelRepo;
 import com.HotelService.service.HotelService;
