@@ -24,20 +24,20 @@ public class User {
     private String about;
 
 
-//    @Transient
-//    private List<Rating> rating=new ArrayList<>();
-//
-//    public User(List<Rating> rating) {
-//        this.rating = rating;
-//    }
-//
-//    public List<Rating> getRating() {
-//        return rating;
-//    }
-//
-//    public void setRating(List<Rating> rating) {
-//        this.rating = rating;
-//    }
+    @Transient
+    private List<Rating> rating=new ArrayList<>();
+
+    public User(List<Rating> rating) {
+        this.rating = rating;
+    }
+
+    public List<Rating> getRating() {
+        return rating;
+    }
+
+    public void setRating(List<Rating> rating) {
+        this.rating = rating;
+    }
 
     public String getUserId() {
         return userId;
