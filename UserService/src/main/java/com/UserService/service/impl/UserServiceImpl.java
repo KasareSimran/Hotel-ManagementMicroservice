@@ -1,5 +1,6 @@
 package com.UserService.service.impl;
 
+import com.UserService.exception.ResourceNotFound;
 import com.UserService.model.User;
 import com.UserService.repository.UserRepo;
 import com.UserService.service.UserService;
