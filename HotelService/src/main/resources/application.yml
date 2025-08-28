@@ -6,7 +6,7 @@ spring:
   application:
     name: HotelService
   datasource:
-    url: jdbc:mysql://localhost:3306/hotelservice
+    url: jdbc:mysql://localhost:3306/hotelservice1
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
