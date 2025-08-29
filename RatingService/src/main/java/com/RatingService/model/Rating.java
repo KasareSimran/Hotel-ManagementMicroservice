@@ -12,14 +12,14 @@ public class Rating {
     private String ratingId;
     private String userId;
     private String hotelId;
-    private String rating;
+    private int rating;
     private String feedback;
 
     //constructor
     public Rating() {
     }
 
-    public Rating(String ratingId, String userId, String hotelId, String rating, String feedback) {
+    public Rating(String ratingId, String userId, String hotelId, int rating, String feedback) {
         this.ratingId = ratingId;
         this.userId = userId;
         this.hotelId = hotelId;
@@ -54,11 +54,11 @@ public class Rating {
         this.hotelId = hotelId;
     }
 
-    public String getRating() {
+    public int getRating() {
         return rating;
     }
 
-    public void setRating(String rating) {
+    public void setRating(int rating) {
         this.rating = rating;
     }
 
