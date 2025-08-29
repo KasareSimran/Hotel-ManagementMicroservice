@@ -21,7 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HotelService" options="-parameters" />
       <module name="RatingService" options="-parameters --add-modules java.base" />
-      <module name="UserService" options="-parameters" />
+      <module name="UserService" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
