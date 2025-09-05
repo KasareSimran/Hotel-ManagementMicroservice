@@ -24,7 +24,7 @@
       <module name="HotelService" options="-parameters" />
       <module name="RatingService" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />
-      <module name="UserService" options="-parameters" />
+      <module name="UserService" options="-parameters --add-modules java.base" />
     </option>
   </component>
 </project>
